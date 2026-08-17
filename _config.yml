@@ -1,0 +1,22 @@
+title: Boyue's Blog
+baseurl: ""
+url: "http://blog.boyue.li"
+github_username: liboyue
+remote_theme: chesterhow/tale
+permalink: /:year-:month-:day/:title
+paginate: 5
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
+  - jekyll-feed
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
